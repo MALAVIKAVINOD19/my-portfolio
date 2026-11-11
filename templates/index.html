@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Malavika | Portfolio</title>
+
+    <!-- Connecting CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Malavika</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Malavika Vinod.</span></h1>
+
+            <h2>Computer Science(AI & ML) Engineering Student</h2>
+
+            <p>
+                I am passionate about exploring new technologies,
+                especially Artificial Intelligence and Web Development.
+                I enjoy learning new skills, solving problems and
+                turning creative ideas into useful projects.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">Explore My Work</a>
+
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Creative Illustration -->
+        <div class="hero-illustration">
+            <img src="{{ url_for('static', filename='images/illustration.png.jpg') }}"
+            alt="Creative technology illustration"
+            class="hero-image">
+        </div>
+
+
+    </section>
+
+
+    <!-- About Section -->
+     
+    <section id="about" class="content-section">
+        
+        <p class="section-label">GET TO KNOW ME</p>
+        
+        <h2>About Me</h2>
+        
+        <div class="about-card">
+            <p>
+                Hello! I'm a Computer Science and Engineering student specialising in Artificial Intelligence and Machine Learning, with a growing passion for technology, creativity and innovation.
+            </p>
+            <p>
+                
+                I'm someone who enjoys exploring new ideas, learning how things work and turning curiosity into something meaningful. From experimenting with code and discovering the possibilities of AI to exploring creative approaches to problem-solving, I enjoy every opportunity to learn and grow.
+            </p>
+            <p>
+                
+                I believe that technology is not just about writing code or building applications; it's about creating solutions that make a difference. I'm constantly looking for opportunities to expand my knowledge, develop new skills and challenge myself through projects and experiences.
+            </p>
+            <p>    
+                As I continue my journey in the world of technology, I'm excited to explore, experiment, create and discover what I'm capable of. I'm still learning, but every new experience brings me one step closer to the person and professional I aspire to become.
+            </p>
+
+        </div>
+    
+    </section>
+
+
+
+    <!-- Education Section -->
+     <section id="education" class="content-section">
+        
+        <p class="section-label">MY ACADEMIC BACKGROUND</p>
+        
+        <h2>Education</h2>
+        
+        <div class="education-card">
+            
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            
+            <h4>Computer Science Engineering (AI & ML)</h4>
+            
+            <p>JAIN (Deemed-to-be University), Bengaluru</p>
+
+            <p>2025 - 2029</p>
+            
+            <p>Currently Pursuing</p>
+
+            <h4>Academic Interests:</h4>
+
+            <p>Artificial Intelligence, Machine Learning, Data Science, Software Development, and Intelligent Systems.</p>
+        
+        </div>
+    
+    </section>
+    
+    
+    
+    
+    <!-- SKILLS SECTION -->
+     
+    <section id="skills" class="content-section">
+        
+        <p class="section-label">WHAT I WORK WITH</p>
+        
+        <h2>My Skills</h2>
+        
+        <div class="skills-container">
+            
+            <div class="skill-box">C Programming</div>
+            
+            <div class="skill-box">Java</div>
+            
+            <div class="skill-box">Python</div>
+            
+            <div class="skill-box">HTML</div>
+            
+            <div class="skill-box">CSS</div>
+        
+        </div>
+    
+    </section>
+
+
+
+    <!-- Projects Section -->
+     
+    <section id="projects" class="content-section">
+        
+        <p class="section-label">MY RECENT WORK</p>
+        
+        <h2>My Projects</h2>
+        
+        <p>
+            <p class="projects-intro">
+                Welcome to my little collection of ideas,
+                experiments and creations.
+            </p>
+        </p>
+        
+        <p>
+            This space brings together the projects I've
+            worked on throughout my learning journey,
+            including academic assignments, personal
+            explorations and creative experiments.
+        </p>
+        
+        <div class="projects-container">
+            
+            <!-- PROJECT 1 -->
+             
+            <div class="project-card">
+                
+                <span class="project-icon">🌦️</span>
+                
+                <h3>Weather Forecast Application</h3>
+                
+                <p>
+                    A Python-based application that retrieves
+                    real-time weather information and forecasts
+                    using APIs. This project improved my skills
+                    in API integration, data handling and
+                    user interface design.
+                </p>
+                
+                <p class="project-tech">
+                    Python | API Integration
+                </p>
+            
+            </div>
+            
+            <!-- PROJECT 2 -->
+             
+            <div class="project-card">
+                
+                <span class="project-icon">💰</span>
+                
+                <h3>Digital Payment Gateway – Java</h3>
+                <p>
+                    Developed a Java project that simulates
+                    digital payment transactions using
+                    interfaces, abstraction and exception
+                    handling, strengthening object-oriented
+                    programming and problem-solving skills.
+                </p>
+                
+                <p class="project-tech">
+                    Java | OOP | Exception Handling
+                </p>
+
+            </div>
+        
+        </div>
+        
+        <p class="projects-ending">
+             I'm just getting started, and there's so much more to create!
+        </p>
+    
+    </section>
+
+
+
+    <!-- Contact Section -->
+     
+    <section id="contact" class="content-section">
+
+        <div class="contact-form">
+            
+            <h3>Send Me a Message</h3>
+            
+            <form action="/contact" method="POST">
+                
+                <label for="name">Your Name</label>
+                <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+                >
+                
+                <label for="email">Your Email</label>
+                <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+                >
+
+                <label for="message">Your Message</label>
+                <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message here..."
+                rows="5"
+                required
+                ></textarea>
+                
+                <button type="submit">Send Message</button>
+            
+            </form>
+        
+        </div>
+    </section>
+
+
+
+</body>
+</html>
